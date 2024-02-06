@@ -1,2 +1,2 @@
 # leading-page
-https://65bd0eed72cf6d03a9dad9cf--joyful-malabi-916b9e.netlify.app/
+https://65c25b39ed2185072f0849de--incandescent-sawine-a75ee5.netlify.app/
