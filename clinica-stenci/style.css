@@ -65,29 +65,6 @@ img {
     --wp--preset--font-family--jost: Jost, sans-serif;
     --wp--preset--font-family--libre-baskerville: 'Libre Baskerville', serif;
     --wp--preset--font-family--libre-franklin: 'Libre Franklin', sans-serif;
-    --wp--preset--font-family--literata: Literata, serif;
-    --wp--preset--font-family--lora: Lora, serif;
-    --wp--preset--font-family--merriweather: Merriweather, serif;
-    --wp--preset--font-family--montserrat: Montserrat, sans-serif;
-    --wp--preset--font-family--newsreader: Newsreader, serif;
-    --wp--preset--font-family--nunito: Nunito, sans-serif;
-    --wp--preset--font-family--open-sans: 'Open Sans', sans-serif;
-    --wp--preset--font-family--overpass: Overpass, sans-serif;
-    --wp--preset--font-family--petrona: Petrona, serif;
-    --wp--preset--font-family--piazzolla: Piazzolla, serif;
-    --wp--preset--font-family--playfair-display: 'Playfair Display', serif;
-    --wp--preset--font-family--plus-jakarta-sans: 'Plus Jakarta Sans', sans-serif;
-    --wp--preset--font-family--poppins: Poppins, sans-serif;
-    --wp--preset--font-family--raleway: Raleway, sans-serif;
-    --wp--preset--font-family--roboto: Roboto, sans-serif;
-    --wp--preset--font-family--roboto-slab: 'Roboto Slab', serif;
-    --wp--preset--font-family--rubik: Rubik, sans-serif;
-    --wp--preset--font-family--sora: Sora, sans-serif;
-    --wp--preset--font-family--source-sans-3: 'Source Sans 3', sans-serif;
-    --wp--preset--font-family--source-serif-4: 'Source Serif 4', serif;
-    --wp--preset--font-family--space-mono: 'Space Mono', monospace;
-    --wp--preset--font-family--texturina: Texturina, serif;
-    --wp--preset--font-family--work-sans: 'Work Sans', sans-serif;
     --wp--preset--spacing--20: 0.44rem;
     --wp--preset--spacing--30: 0.67rem;
     --wp--preset--spacing--40: 1rem;
@@ -838,10 +815,11 @@ ul li a {
 }
 
 .container-mensagem {
-    width: 50%;
+    width: 80%;
     display: flex;
     justify-content: right;
     flex-direction: column;
+    margin: 0 auto;
 
 }
 
@@ -889,4 +867,26 @@ ul li a {
 .container{
     max-width: 1280px;
     margin: auto;
+    
+}
+.container-form-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    flex: 1;
+    text-align: center;
+    margin: auto 0;
+    box-shadow: 1px 1px 10px 5px #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    input{
+        background-color: #F2F3fB;
+        margin: 0 auto;
+        width: 80%;
+        padding: 15px ;
+        border-radius: 8px;
+        color: #8285B0;
+    }
+
 }

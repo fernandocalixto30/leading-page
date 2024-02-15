@@ -11,6 +11,7 @@ body {
     box-shadow: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     overflow-x: hidden;
+    background-color: #f4f4f4;
 }
 
 .nav-bar {
@@ -75,10 +76,11 @@ nav a {
     z-index: 1;
 
     background-image: url("https://i0.wp.com/stenci.com.br/wp-content/uploads/2020/11/about-us-classic.jpg?fit=1920%2C450&ssl=2");
-    color: red;
+    background-size: cover;
     width: 100%;
     height: 370px;
 }
+
 .caixa-recursos-text {
     display: flex;
     justify-content: center;
@@ -86,10 +88,7 @@ nav a {
     text-align: center;
     height: 100%;
     flex-direction: column;
-    color: white;
-h1{
 
-}
     .spans {
         display: flex;
 
@@ -110,406 +109,255 @@ h1{
     }
 }
 
-section {
-    overflow-x: hidden;
+button:hover {
+    background-color: white;
+    color: #564BC6;
+    border: 1px solid rgb(170, 163, 163);
 }
 
-.caixa-recursos-text {
+.caixa-recursos-text h1 {
+    color: white;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+
+.container-imagem {
+    position: relative;
+    width: 500px;
+    justify-content: center;
+    display: flex;
+}
+
+.container-caixa-fale-conosco {
     width: 100%;
-    height: 100%;
-    color: red;
+    height: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin-top: 200px;
+    transition: 0.3s;
+
+}
+
+.fale-conosco {
+    font-family: sans-serif;
+    padding: 15px;
+    margin-top: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 180px;
+    margin-left: 33px;
+    margin-top: 50px;
+    background-color: #191970;
+    border: 0;
+
+}
+
+.caixa-recursos-text-pate-2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
 
     h1 {
-        font-size: 40px;
-        font-weight: 600;
-        color: rgb(255, 255, 255);
-    }
-}
 
-.container-recursos {
-    max-width: 1280px;
-    margin: 0 auto;
-}
-
-.nav-container-recursos {
-    position: sticky;
-    bottom: 0;
-    right: 0;
-    margin-bottom: 70px;
-    width: 100%;
-    background-color: #fff;
-    z-index: 2;
-    display: flex;
-    flex-direction: row;
-
-    ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        flex: 1;
-
-        a {
-            text-decoration: none;
-            padding: 20px;
-            font-size: 1.1rem;
-            color: #564BC6;
-            font-weight: bold;
-            font-family: sans-serif;
-        }
-    }
-
-}
-
-.container-recursos-atendimento {
-    display: flex;
-    flex-direction: row;
-    z-index: 1;
-    top: 20px;
-
-
-}
-
-.container-image-recursos-atendimento {
-    width: 100%;
-    position: relative;
-    text-align: center;
-
-
-    img {
-        width: 100%;
-
-    }
-}
-
-.container-atendimento-right {
-    margin-right: 200px;
-    width: 50%;
-}
-
-.recursos-atendimento-left {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    margin-left: 50px;
-
-    .lista-recursos-atendimento {
-        font-family: sans-serif;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        font-size: 15px;
-
-
-    }
-}
-
-.text-paragrafo-recursos-atendimento {
-
-    h3 {
-
-        font-size: 35px;
+        color: white;
+        font-size: 32px;
         font-weight: 700;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        color: #1e266d;
 
-    }
 
-    p {
-        font-size: 18px;
-        color: #445781;
-        font-weight: 400;
     }
 }
 
-/* //container-prontuario */
-.container-prontuario {
-    display: flex;
-    flex-direction: row;
-    top: 20px;
-    margin-top: 100px;
-
-}
-
-.container-imege-prontuario {
+.caixa-fale-conosco {
+    background-image: url("https://www.swaytheme.com/wp-content/uploads/sites/3/2020/08/startup-bg.jpg?id=");
+    background-size: cover;
     width: 100%;
-    position: relative;
+    height: 600px;
+}
+
+.caixa-recursos-text-pate-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-
-
-    img {
-        width: 100%;
-    }
+    height: 100%;
 }
 
-.container-prontuario-left {
-    margin-right: 200px;
-    width: 50%;
+.caixa-recursos-text-pate-2 h1 {
+    color: white;
+    font-size: 38px;
+    font-weight: 700;
 }
 
-.container-prontuario-right {
-    width: 50%;
+
+.container-imagem {
+    position: relative;
+    width: 500px;
+    justify-content: center;
     display: flex;
-    flex-direction: column;
-    margin-left: 50px;
-
-    .lista-recursos-prontuario {
-        font-family: sans-serif;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        font-size: 15px;
-
-
-    }
 }
 
-.text-paragrafo-prontuario {
-
-    h3 {
-
-        font-size: 35px;
-        font-weight: 700;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        color: #1e266d;
-
-    }
-
-    p {
-        font-size: 18px;
-        color: #445781;
-        font-weight: 400;
-    }
+.imegem-dupla {
+    border-radius: 10px;
 }
 
-/* container-laudo */
-.container-Laudo {
+.imagem2 {
+    border-radius: 10px;
+    position: absolute;
+    bottom: -1px;
+    right: -150px;
+}
+
+.container-sobre {
+    margin-top: 200px;
     display: flex;
     flex-direction: row;
-    z-index: 1;
-    top: 20px;
-    margin-top: 100px;
-
 }
 
-.container-imege-laudo {
-    width: 100%;
-    position: relative;
-    text-align: center;
-
-
-    img {
-        width: 100%;
-    }
-}
-
-.container-laudo-right {
-    margin-right: 200px;
-    width: 50%;
-}
-
-.container-laudo-left {
-    width: 50%;
+.container-sobre-left {
     display: flex;
-    flex-direction: column;
-    margin-left: 50px;
-
-    .lista-laudo {
-        font-family: sans-serif;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        font-size: 15px;
-
-
-    }
-}
-
-.text-paragrafo-laudo {
-
-    h3 {
-
-        font-size: 35px;
-        font-weight: 700;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        color: #1e266d;
-
-    }
-
-    p {
-        font-size: 18px;
-        color: #445781;
-        font-weight: 400;
-    }
-}
-
-/* faturamento */
-
-.container-faturamento {
-    display: flex;
-    flex-direction: row;
-    top: 20px;
-    margin-top: 100px;
-
-}
-
-.container-imege-faturamento {
-    width: 100%;
-    position: relative;
-    text-align: center;
-
-
-    img {
-        width: 100%;
-    }
-}
-
-.container-faturamento-left {
-    margin-right: 200px;
     width: 50%;
-
-}
-
-.container-faturamento-right {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    margin-left: 50px;
-
-    .lista-recursos-faturamento {
-        font-family: sans-serif;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        font-size: 15px;
-
-
-    }
-}
-
-.text-paragrafo-faturamento {
-
-    h3 {
-
-        font-size: 35px;
-        font-weight: 700;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        color: #1e266d;
-
-    }
-
-    p {
-        font-size: 18px;
-        color: #445781;
-        font-weight: 400;
-    }
-}
-
-/* financeiro */
-
-.container-financeiro {
-    display: flex;
-    flex-direction: row;
-    z-index: 1;
-    top: 20px;
-    margin-top: 100px;
-
-}
-
-.container-imege-financeiro {
-    width: 100%;
-    position: relative;
     margin-left: 100px;
-
-    img {
-        width: 100%;
-    }
 }
 
-.container-financeiro-right {
-    margin-right: 200px;
-    width: 50%;
-}
-
-.container-financeiro-left {
-    width: 50%;
+.container-sobre-right {
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
-
-    .lista-financeiro {
-        font-family: sans-serif;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        font-size: 15px;
-
-
-    }
+    width: 50%;
 }
 
-.text-paragrafo-financeiro {
-
-    h3 {
-
+.container-text {
+    h1 {
+        color: #191970;
         font-size: 35px;
         font-weight: 700;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        color: #1e266d;
-
     }
 
     p {
         font-size: 18px;
-        color: #445781;
+        margin-top: 30px;
+        color: #696969;
+        letter-spacing: 0.01em;
+        line-height: 1.5;
         font-weight: 400;
+        margin-bottom: 20px;
     }
 }
 
-/* outros recursos */
-.container-outros-recursos {
-    display: flex;
-    flex-direction: row;
-    top: 20px;
-    margin-top: 100px;
-
+.container-text-sobre {
+    width: 65%;
 }
 
-.container-imege-outros-recursos {
-    width: 100%;
-    position: relative;
-    text-align: center;
+.container-text-sobre {
+    h3 {
+        color: #191970;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 1.3;
+        margin-bottom: 12px;
+    }
+}
 
+.container-sobre-caixa {
+    margin-bottom: 40px;
+
+
+    p {
+        color: #696969;
+    }
+}
+
+.imagem-caixa {
+    margin-right: 20px;
 
     img {
-        width: 100%;
+        width: 60px;
+        border-radius: 100%;
+
+    }
+
+}
+
+.fadback-cliente {
+    margin-top: 100px;
+}
+
+.titulo-fadback-cliente {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    h1 {
+        font-size: 34px;
+        font-weight: 700;
+        color: #1e266d;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    h6 {
+        color: #445781;
+        font-size: 18px;
+        text-align: center;
     }
 }
 
-.container-outros-recursos-left {
-    margin-right: 200px;
-    width: 50%;
-
-}
-
-.container-outros-recursos-right {
-    width: 50%;
+.container-caixa-fadback {
     display: flex;
-    flex-direction: column;
-    margin-left: 50px;
-
-    .lista-outros-recursos {
-        font-family: sans-serif;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        font-size: 15px;
+    flex-direction: row;
+    /* margin: 20px; */
+    justify-content: space-evenly;
+    margin-top: 100px;
 
 
+}
+
+.content-image {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+
+}
+
+.content-text {
+    justify-content: space-between;
+
+    p {
+        margin-bottom: 30px;
     }
 }
 
 
 
+.container-fadback-caixa {
+    display: flex;
+    width: 28%;
+    height: 20%;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 35px;
+
+    p {
+        color: #1e266d;
+        font-size: inherit;
+        line-height: 1.6;
+        font-size: 18px;
+    }
+
+    .nome {
+        color: #564BC6;
+
+    }
+
+}
+
+
+
+/* footer */
 .text-paragrafo-outros-recursos {
 
     h3 {
@@ -554,7 +402,7 @@ section {
     flex-direction: row;
     width: 100%;
     height: 400px;
-    margin-top: 150px;
+
 }
 
 .container-informacoes-footer {
@@ -672,7 +520,8 @@ section {
         margin-bottom: 10px;
     }
 }
-.button-fale-conosco{
+
+.button-fale-conosco {
     font-size: 16px;
     margin-right: 10px;
     display: inline-flex;
@@ -693,22 +542,25 @@ section {
     border: none;
 
 }
-.button-fale-conosco:hover{
-   background-color: #564BC6;
-   
+
+.button-fale-conosco:hover {
+    background-color: #564BC6;
+
 }
-.text-fale-conosco{ 
+
+.text-fale-conosco {
     margin-top: 50px;
     text-align: center;
     font-family: sans-serif;
- 
-h1{
-font-size: 35px;
-font-weight: 700;
-color: #1c1c6c;
-margin-bottom: 20px;
-}
-p{
-    color: #3838a3e7;
-}
+
+    h1 {
+        font-size: 35px;
+        font-weight: 700;
+        color: #1c1c6c;
+        margin-bottom: 20px;
+    }
+
+    p {
+        color: #3838a3e7;
+    }
 }
