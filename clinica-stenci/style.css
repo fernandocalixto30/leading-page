@@ -10,8 +10,7 @@ h2,
 h3,
 p,
 img {
-    margin: 0;
-    padding: 0;
+
     --wp--preset--color--black: #000000;
     --wp--preset--color--cyan-bluish-gray: #abb8c3;
     --wp--preset--color--white: #ffffff;
@@ -36,47 +35,6 @@ img {
     --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
     --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
     --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
-    --wp--preset--font-size--small: 13px;
-    --wp--preset--font-size--medium: 20px;
-    --wp--preset--font-size--large: 36px;
-    --wp--preset--font-size--x-large: 42px;
-    --wp--preset--font-family--albert-sans: 'Albert Sans', sans-serif;
-    --wp--preset--font-family--alegreya: Alegreya, serif;
-    --wp--preset--font-family--arvo: Arvo, serif;
-    --wp--preset--font-family--bodoni-moda: 'Bodoni Moda', serif;
-    --wp--preset--font-family--cabin: Cabin, sans-serif;
-    --wp--preset--font-family--chivo: Chivo, sans-serif;
-    --wp--preset--font-family--commissioner: Commissioner, sans-serif;
-    --wp--preset--font-family--cormorant: Cormorant, serif;
-    --wp--preset--font-family--courier-prime: 'Courier Prime', monospace;
-    --wp--preset--font-family--crimson-pro: 'Crimson Pro', serif;
-    --wp--preset--font-family--dm-mono: 'DM Mono', monospace;
-    --wp--preset--font-family--dm-sans: 'DM Sans', sans-serif;
-    --wp--preset--font-family--domine: Domine, serif;
-    --wp--preset--font-family--eb-garamond: 'EB Garamond', serif;
-    --wp--preset--font-family--epilogue: Epilogue, sans-serif;
-    --wp--preset--font-family--figtree: Figtree, sans-serif;
-    --wp--preset--font-family--fira-sans: 'Fira Sans', sans-serif;
-    --wp--preset--font-family--fraunces: Fraunces, serif;
-    --wp--preset--font-family--ibm-plex-mono: 'IBM Plex Mono', monospace;
-    --wp--preset--font-family--ibm-plex-sans: 'IBM Plex Sans', sans-serif;
-    --wp--preset--font-family--inter: Inter, sans-serif;
-    --wp--preset--font-family--josefin-sans: 'Josefin Sans', sans-serif;
-    --wp--preset--font-family--jost: Jost, sans-serif;
-    --wp--preset--font-family--libre-baskerville: 'Libre Baskerville', serif;
-    --wp--preset--font-family--libre-franklin: 'Libre Franklin', sans-serif;
-    --wp--preset--spacing--20: 0.44rem;
-    --wp--preset--spacing--30: 0.67rem;
-    --wp--preset--spacing--40: 1rem;
-    --wp--preset--spacing--50: 1.5rem;
-    --wp--preset--spacing--60: 2.25rem;
-    --wp--preset--spacing--70: 3.38rem;
-    --wp--preset--spacing--80: 5.06rem;
-    --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
-    --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
-    --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
-    --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
-    --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
 }
 
 nav {
@@ -103,28 +61,16 @@ nav a {
     text-decoration: none;
     white-space: nowrap;
     color: darkslateblue;
-    margin-left: 30px;
-
 }
 
 /* serve para ajustar a margenm da direita */
-nav a:last-child {
-    margin-right: 0;
-}
+nav a:last-child {}
 
 /* serve para  estilizar do cabeçalho para ele ficar do lado direito */
 .cabecalho {
     display: flex;
     align-items: center;
-
-}
-
-/* serve para Ajustar na posição do cabeçalho para o lado direito */
-.cabecalho {
-    margin-left: auto;
-    margin-right: 20px;
-
-
+    gap: 20px;
 }
 
 /*serve para alinhar as escritas para o lado direita */
@@ -148,9 +94,7 @@ nav {
 
 .div-caixa h1 {
     font-size: 70px;
-    margin-top: 23%;
     color: darkblue;
-    margin-left: 60px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -161,12 +105,13 @@ nav {
     width: 50%;
     padding: 10px;
     box-sizing: border-box;
+    margin-top: 100px;
+
 
 }
 
 .caixa1 p {
     font-size: 20px;
-    text-align: center;
     margin-top: 50px;
     color: rgba(31, 31, 129, 0.695);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -192,11 +137,9 @@ nav {
 
 .button-contato2 {
     font-size: 17px;
-    margin-right: 10px;
     display: inline-flex;
     text-decoration: none;
     background: rgb(85, 35, 249);
-    margin-right: 10px;
     text-align: center;
     color: #fff;
     padding: 0 40px;
@@ -216,11 +159,9 @@ nav {
 
 .button-contato {
     font-size: 16px;
-    margin-right: 10px;
     display: inline-flex;
     text-decoration: none;
     background: rgb(85, 35, 249);
-    margin-right: 10px;
     text-align: center;
     color: #fff;
     padding: 0 40px;
@@ -231,7 +172,6 @@ nav {
     justify-content: center;
     width: max-content;
     overflow: hidden;
-    margin-left: 55px;
     border: 1px solid;
 
 
@@ -240,11 +180,9 @@ nav {
 
 .button-segundario {
     font-size: 16px;
-    margin-right: 10px;
     display: inline-flex;
     text-decoration: none;
     background: rgb(255, 255, 255);
-    margin-right: 10px;
     text-align: center;
     color: rgb(28, 28, 108);
     padding: 0 40px;
@@ -255,7 +193,6 @@ nav {
     justify-content: center;
     width: max-content;
     overflow: hidden;
-    margin-left: 10px;
     border: none;
 
 
@@ -284,7 +221,6 @@ nav {
     color: rgb(85, 35, 249);
     border-radius: 5px;
     width: 35%;
-    margin-left: 33px;
     border: 1px solid rgb(85, 35, 249);
 }
 
@@ -293,7 +229,6 @@ nav {
     color: rgb(8, 8, 116);
     font-size: 45px;
     margin-top: 30px;
-    margin-left: 60px;
     font-family: inherit;
 }
 
@@ -308,7 +243,6 @@ nav {
     margin-top: 50px;
     font-size: 20px;
     color: #092580c9;
-    margin-left: 33px;
     margin-top: 30px;
 }
 
@@ -318,7 +252,6 @@ nav {
     color: rgb(8, 8, 116);
     font-size: 33px !important;
     margin-top: 130px;
-    margin-left: 33px;
 
 }
 
@@ -338,28 +271,31 @@ nav {
     display: flex;
     width: 100%;
     height: 90%;
-    margin-left: 80px;
-
 }
 
 .div-sujestoes-img {
     width: 56%;
+    flex: 1;
+    margin: 0 auto;
 }
 
 
 
-.div-sujestoes-text {
+.div-container-sujestoes-text {
+    display: flex;
     flex-direction: column;
     width: 50%;
     height: 100%;
-    align-items: right;
+    ;
     text-align: left;
-    margin-top: 50px;
     justify-content: center;
-    margin-left: 200px;
-    margin-right: 50px;
-    flex-direction: right;
+    align-items: center;
+    margin: 0 auto;
 
+}
+
+.div-sujestoes-text {
+    width: 80%;
 }
 
 .container-sujestoes h6 {
@@ -380,7 +316,9 @@ nav {
     letter-spacing: -0.01em;
 
 }
-
+.principais-recursos{
+    margin-top: 150px;
+}
 .principais-recursos h1 {
     font-weight: 700;
     font-size: 34px;
@@ -389,7 +327,6 @@ nav {
     margin-top: 20px;
     letter-spacing: 0.01em;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-
 }
 
 .principais-recursos h6 {
@@ -397,7 +334,6 @@ nav {
     letter-spacing: 0.01;
     font-weight: 400;
     font-size: 18px;
-    margin-left: 20px;
 }
 
 .principais-recursos h2 {
@@ -405,7 +341,6 @@ nav {
     margin-bottom: 30px;
     color: #1e266d;
     margin-top: 40px;
-    margin-left: 20px;
     letter-spacing: 0.01em;
     line-height: 1.3;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -432,9 +367,9 @@ nav {
 .mais-resultados {
     height: 100%;
     display: flex;
-    margin-left: 50px;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 100px;
 
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -449,11 +384,9 @@ nav {
 
 .mais-resultados-button {
     font-size: 16px;
-    margin-right: 10px;
     display: inline-flex;
     text-decoration: none;
     background: rgb(255, 255, 255);
-    margin-right: 10px;
     text-align: center;
     color: rgb(28, 28, 108);
     padding: 0 40px;
@@ -464,7 +397,6 @@ nav {
     justify-content: center;
     width: max-content;
     overflow: hidden;
-    margin-left: 10px;
     border: 1px solid rgb(28, 28, 108);
     margin-top: 30px;
 
@@ -660,16 +592,7 @@ nav {
     justify-content: space-between;
 }
 
-@media only screen and (max-width: 1000px) {
-    .opcoes-medicamento {
-        flex-direction: column;
-    }
 
-    .div-caixa {
-        flex-direction: column;
-    }
-
-}
 
 .footer {
     background-color: #212240;
@@ -683,7 +606,6 @@ nav {
 .stenci {
     display: flex;
     flex-direction: column;
-    margin-left: 150px;
     margin-top: 80px;
     color: #ffffff6a;
     font-size: 15px;
@@ -724,7 +646,6 @@ nav {
     flex: 1;
     flex-direction: column;
     margin-top: 80px;
-    margin-left: 200px;
     font-size: 18px;
 
     .menu-span {
@@ -772,14 +693,13 @@ ul li a {
         margin-bottom: 10px;
     }
 }
-.container-mensagem-principal-right input{
+
+.container-mensagem-principal-right input {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     padding: 8px 15px;
     border: none;
-    width: 50%;
-
-
+    width: 50%
 }
 
 .foother2 {
@@ -799,19 +719,20 @@ ul li a {
     display: flex;
     flex-direction: column;
     gap: 20px;
-  
+
 }
 
 .details-container {
     padding: 20px;
     border: 1px solid #ddd;
- 
+
 }
 
 .container-mensagem-principal {
     display: flex;
     flex-direction: row;
     margin-top: 300px;
+    gap: 80px;
 }
 
 .container-mensagem {
@@ -834,42 +755,48 @@ ul li a {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin-left:150px;
-    h4{
+
+    h4 {
         font-size: 22px;
         font-weight: 600;
-        color:#171f6a ;
+        color: #171f6a;
         text-align: center;
         width: 100%;
-            }
-         h6{
+    }
+
+    h6 {
         font-size: 16px;
-        font-weight:400 ;
-        color:#445781;
-            }
+        font-weight: 400;
+        color: #445781;
+    }
 
 }
-.container-titulos{
+
+.container-titulos {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    h2{
+
+    h2 {
         color: #1e266d;
         font-size: 32px;
         font-weight: 700;
         text-align: center;
     }
-    h6{
+
+    h6 {
         font-size: 17px;
         font-weight: 400;
         color: midnightblue;
         margin-bottom: 80px;
     }
 }
-.container{
+
+.container {
     max-width: 1280px;
     margin: auto;
-    
+
 }
-.container-form-right{
+
+.container-form-right {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -880,13 +807,56 @@ ul li a {
     box-shadow: 1px 1px 10px 5px #ddd;
     padding: 20px;
     border-radius: 8px;
-    input{
+
+    input {
         background-color: #F2F3fB;
         margin: 0 auto;
         width: 80%;
-        padding: 15px ;
+        padding: 15px;
         border-radius: 8px;
         color: #8285B0;
     }
 
+}
+@media only screen and (max-width: 1000px) {
+    .opcoes-medicamento {
+        flex-direction: column;
+    }
+
+    .div-caixa {
+        flex-direction: column;
+    }
+    .container-mensagem-principal{
+        flex-direction: column;
+    }
+    .div-container2-imagem{
+        flex-direction: column;
+    }
+    .container-row{
+        flex-direction: column;
+    }
+    .div-container-div-med{
+        flex-direction: column;
+    }
+    .container-sujestoes{
+        display: flex;
+        flex-direction: column;
+        margin-top: 120px;
+    }
+    .div-sujestoes-img{
+        width: 300px;
+        margin-bottom: 50px;
+    }
+    .div-sujestoes-text{
+        width: 80%;
+    }
+    .div-container-sujestoes-text{
+        width: 100%;
+    }
+    .mais-resultados{
+        margin-top: 500px;
+    }
+    .mais-resultados-text{
+        width: 100%;
+    }
 }
